@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+	<!-- 
+		id属性表示改标签的唯一表示
+		class书香要创建的实例对象所属的全限定名
+	 -->
+	<context id="user_service" class="com.myshop.service.impl.UserServiceImpl"/>
+	<context id="user_dao" class="com.myshop.dao.impl.UserDaoImpl" />
+	<context id="category_service" class="com.myshop.service.impl.CategoryServiceImpl" />
+	<context id="category_dao" class="com.myshop.dao.impl.CategoryDaoImpl" />
+	<context id="product_service" class="com.myshop.service.impl.ProductServiceImpl" />
+	<context id="product_dao" class="com.myshop.dao.impl.ProductDaoImpl" />
+	<context id="order_service" class="com.myshop.service.impl.OrderServiceImpl" />
+	<context id="order_dao" class="com.myshop.dao.impl.OrderDaoImpl" />
+	<context id="adminCategory_service" class="com.myshop.service.admin.impl.AdminCategoryServiceImpl" />
+	<context id="adminCategory_dao" class="com.myshop.dao.admin.impl.AdminCategoryDaoImpl" />
+	<context id="adminProduct_service" class="com.myshop.service.admin.impl.AdminProductServiceImpl" />
+	<context id="adminProduct_dao" class="com.myshop.dao.admin.impl.AdminProductDaoImpl" />
+	<context id="upload_service" class="com.myshop.service.admin.impl.UploadServiceImpl" />
+	<context id="upload_dao" class="com.myshop.dao.admin.impl.UploadDaoImpl" />
+	<context id="adminOrder_service" class="com.myshop.dao.admin.impl.AdminOrderServiceImpl" />
+	<context id="adminOrder_dao" class="com.myshop.dao.impl.AdminOrderDaoImpl" />
+</content>
